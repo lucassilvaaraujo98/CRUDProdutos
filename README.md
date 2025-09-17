@@ -1,7 +1,5 @@
 # 🛒Sistema CRUD de Produtos
 
-![Tela de Cadastro](images/cadastro.png)
-
 Sistema simples de **Cadastro de Produtos** com operações de **CRUD** (Criar, Listar, Editar, Excluir), desenvolvido em **C# (WinForms)** com **MySQL** como banco de dados.
 
 O sistema possui **autenticação de usuários**, com permissões diferenciadas:
@@ -20,7 +18,10 @@ Autenticação de usuários Login com usuário e senha
 Permissões diferenciadas (admin/comum) | Botões coloridos e centralizados DataGridView estilizado
 
 Formulários responsivos e intuitivos
-
+![Tela de Cadastro](CRUDProdutos/images/Produtos.PNG)
+![Tela de Cadastro](CRUDProdutos/images/cadastro.PNG)
+![Tela de Cadastro](CRUDProdutos/images/novo.PNG)
+![Tela de Cadastro](CRUDProdutos/images/login.PNG)
 ## **Tecnologias utilizadas**
 
 - **Frontend:** C# com WinForms (Windows Forms App)
