@@ -31,7 +31,7 @@ Formulários responsivos e intuitivos
 - **Banco de Dados:** MySQL 8.0
 - **IDE recomendada:** Visual Studio 2022
 - **Recomendável instalar o suporte à versão .NET 4.8**
-- **Driver MySQL:** dotConnect for MySQL is ou MySql.Data NuGet Package 
+- **Driver MySQL:** dotConnect for MySQL ou MySql.Data NuGet Package 
 
 ---
 
