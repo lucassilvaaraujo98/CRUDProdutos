@@ -5,7 +5,7 @@ namespace CRUDProdutos
 {
     public static class Database
     {
-        // Retorna uma nova conexão — o caller deve usar "using" para fechar/dispô-la.
+        // Retorna uma nova conexão
         public static MySqlConnection GetConnection()
         {
             var cs = ConfigurationManager.ConnectionStrings["CrudProdutos"]?.ConnectionString;
