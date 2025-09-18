@@ -11,13 +11,14 @@ O sistema possui **autenticação de usuários**, com permissões diferenciadas:
 
 CRUD de produtos |Adicionar novo produto
 
-Editar produto existente Excluir | produto Visualizar todos os produtos em uma tabela
+Editar produto existente Excluir | Visualizar todos os produtos em uma tabela
 
 Autenticação de usuários Login com usuário e senha
 
-Permissões diferenciadas (admin/comum) | Botões coloridos e centralizados DataGridView estilizado
+Permissões diferenciadas (admin/comum)
 
 Formulários responsivos e intuitivos
+
 ![Tela de Cadastro](CRUDProdutos/images/Produtos.PNG)
 
 ![Tela de Cadastro](CRUDProdutos/images/cadastro.PNG)
@@ -29,7 +30,8 @@ Formulários responsivos e intuitivos
 - **Backend:** C# (integrado ao frontend)
 - **Banco de Dados:** MySQL 8.0
 - **IDE recomendada:** Visual Studio 2022
-- **Driver MySQL:** MySql.Data NuGet Package
+- **Recomendável instalar o suporte à versão .NET 4.8**
+- **Driver MySQL:** dotConnect for MySQL is ou MySql.Data NuGet Package 
 
 ---
 
