@@ -85,7 +85,7 @@ CREATE TABLE unidade_medida (
 CREATE TABLE produto (
     id INT AUTO_INCREMENT PRIMARY KEY,
     codigo VARCHAR(20) NOT NULL,
-    login VARCHAR(100) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
     unidade_id INT NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
     quantidade INT NOT NULL,
@@ -95,7 +95,7 @@ CREATE TABLE produto (
 -- Tabela de usuários
 CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(50) NOT NULL,
+    login VARCHAR(50) NOT NULL,
     senha VARCHAR(50) NOT NULL,
     tipo ENUM('admin','comum') NOT NULL
 );
