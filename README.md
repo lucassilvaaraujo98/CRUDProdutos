@@ -104,7 +104,7 @@ CREATE TABLE usuario (
 INSERT INTO unidade_medida (nome) VALUES ('Kg'), ('L'), ('Unidade');
 
 -- Inserir usuário admin padrão
-INSERT INTO usuario (nome, senha, tipo) VALUES ('admin', 'admin123', 'admin');
+INSERT INTO usuario (login, senha, tipo) VALUES ('admin', 'admin123', 'admin');
 
 ```
 ## **⚙️Configuração do projeto**
