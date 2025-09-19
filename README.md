@@ -31,7 +31,7 @@ Formulários responsivos e intuitivos
 - **Banco de Dados:** MySQL 8.0
 - **IDE recomendada:** Visual Studio 2022
 - **Recomendável instalar o suporte à versão .NET 4.8**
-- **Driver MySQL:** dotConnect for MySQL ou MySql.Data NuGet Package 
+- **Driver MySQL:** MySql.Data NuGet Package  e dotConnect for MySQL (Extensão)
 
 ---
 
@@ -85,7 +85,7 @@ CREATE TABLE unidade_medida (
 CREATE TABLE produto (
     id INT AUTO_INCREMENT PRIMARY KEY,
     codigo VARCHAR(20) NOT NULL,
-    nome VARCHAR(100) NOT NULL,
+    login VARCHAR(100) NOT NULL,
     unidade_id INT NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
     quantidade INT NOT NULL,
@@ -115,13 +115,13 @@ git clone https://github.com/SEU_USUARIO/CRUDProdutos.git
 ````
 
 
-- **Abra a solução no Visual Studio 2022.**
+- **Abra a solução (arquivo .sln) no Visual Studio 2022.**
 
 - **Instale o NuGet Package do MySQL:**
 
-- **Menu Tools → NuGet Package Manager → Manage NuGet Packages for Solution**
+- **Menu Ferramentas → NuGet Package Manager → Gerenciar NuGet Packages para Solução**
 
-- **Pesquise por MySql.Data e instale a versão mais recente **
+- **Pesquise por MySql.Data e instale a versão mais recente**
 
 - **Configure a conexão com o banco no arquivo Database.cs:**
 
